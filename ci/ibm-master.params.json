@@ -1,0 +1,66 @@
+[
+  {
+    "ParameterKey": "AvailabilityZones",
+    "ParameterValue": "$[taskcat_genaz_2]"
+  },
+  {
+    "ParameterKey": "AdminRemoteAccessCIDR",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "AdminConsoleAccessCIDR",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "ClientAppAccessCIDR",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "$[alfred_getkeypair]"
+  },
+  {
+    "ParameterKey": "BastionAMIOS",
+    "ParameterValue": "Ubuntu-Server-16.04-LTS-HVM"
+  },
+  {
+    "ParameterKey": "LicenseAgreement",
+    "ParameterValue": "I agree"
+  },
+  {
+    "ParameterKey": "LicenseS3Bucket",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "LicenseS3KeyPrefix",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "BrokerConsoleUsername",
+    "ParameterValue": "brokerconsoleadmin"
+  },
+  {
+    "ParameterKey": "BrokerConsolePassword",
+    "ParameterValue": "$[alfred_genpass_10]"
+  },
+  {
+    "ParameterKey": "BrokerAdminPassword",
+    "ParameterValue": "$[alfred_genpass_10]"
+  },
+  {
+    "ParameterKey": "BrokerAppPassword",
+    "ParameterValue": "$[alfred_genpass_10]"
+  },
+  {
+    "ParameterKey": "IIBOwner",
+    "ParameterValue": "taskcat-ibm"
+  },
+  {
+    "ParameterKey": "IIBInstanceName",
+    "ParameterValue": "taskcat-ibm-mq"
+  },
+  {
+    "ParameterKey": "QueueManagerName",
+    "ParameterValue": "QM1"
+  }
+]

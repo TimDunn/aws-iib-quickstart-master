@@ -1,0 +1,40 @@
+Alex		Conversion to use systemctl commands
+			Identify the changes that need to be made
+			Make the changes
+			IIB health check script
+
+
+Alex		Get a working prototype		No build system
+				Bastion, VPC, Servers with IIB and MQ
+			Combination of MQ QS and IIB article styles
+			Manually test IIB, MQ
+				Manually verify file systems, processes etc
+				Run IIB In/out applications
+
+Tim		Build Sample IIB application that will be shipped in the QS to allow verifcation of the built system
+			HTTP In/out
+			MQ In/Out
+			How to package, where to place
+
+Alex,Tim		Review template parameters
+			Review existing usage
+			Identify the IIB model
+
+Alex, Tim		Naming conventions
+			Integration node
+			Integration server
+			Queue manager
+			iib user
+			mq user
+
+Tim		licence accept processing
+Alex,Jane,Tim			Review existing usage		why does MQ have paramter to accept and the licence file
+			Identify the IIB model		probably put  a file on S3 and use that to accept the licence to give them a production environment
+					Do we need to use a prompt on the template as well
+						Need to accept the licence when building the AMI
+				How to combine with the MQ licence
+					Implicitly will accept the MQ once IIB is accepted
+
+				MQ licence file to use with IIB
+
+						

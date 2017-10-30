@@ -1,0 +1,22 @@
+global:
+  notification: true
+  owner: alexandra.paduraru@ibm.com
+  project: aws-iib-quickstart
+  qsname: aws-iib-quickstart
+  regions:
+    - us-east-1
+    - us-east-2
+    - us-west-2
+    - eu-west-1
+    - ap-southeast-2
+  reporting: true
+tests:
+  quickstart-ibm-mqt1:
+    parameter_input: iib-master.params.json
+    template_file: iib-master.template
+    regions:
+      - us-east-1
+      - us-east-2
+      - us-west-2
+      - eu-west-1
+      - ap-southeast-2
